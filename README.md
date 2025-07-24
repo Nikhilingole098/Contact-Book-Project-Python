@@ -1,37 +1,29 @@
-✅ Features
-Add new contacts with details like name, phone number, and email
+📒 Contact Book (Python Project)
+A simple command-line based Contact Book application built using Python. This project allows users to add, view, search, update, and delete contact information efficiently — all within a Jupyter notebook environment.
 
-View all saved contacts in a structured format
+🛠️ Features
+➕ Add new contacts
 
-Search contacts by name
+📄 View all saved contacts
 
-Update contact information
+🔍 Search contacts by name or phone
 
-Delete specific contacts
+✏️ Update existing contact details
 
-Console-based interaction for easy understanding
+❌ Delete contacts
 
-Beginner-friendly Python logic
+💾 Data persistence using local storage (e.g., CSV or JSON file)
 
-🛠 Tech Stack
-Language: Python 3
+🧰 Technologies Used
+Python 3
 
-Environment: Jupyter Notebook (IPython)
+Jupyter Notebook
 
-Interface: Text-based (Console I/O)
+File handling (CSV/JSON)
 
-📁 Files
-Contact Book.ipynb – Main Jupyter Notebook (original source)
+Basic CLI interaction
 
-Contact Book.html – Exported HTML version for easy sharing/viewing
-
-▶️ How to Run
-Make sure you have Jupyter Notebook installed:
-
-bash
-Copy
-Edit
-pip install notebook
+🚀 Getting Started
 Clone the repository:
 
 bash
@@ -39,31 +31,25 @@ Copy
 Edit
 git clone https://github.com/Nikhilingole098/Contact-Book-Project-Python
 Open the notebook:
+Use Jupyter Notebook or Jupyter Lab to open Contact Book.ipynb.
 
-bash
+Run and interact:
+Run each cell and follow the on-screen instructions in the notebook interface.
+
+📂 Project Structure
+kotlin
 Copy
 Edit
-jupyter notebook "Contact Book.ipynb"
-Run the cells one by one and interact via the input prompts.
+📁 contact-book/
+│
+├── Contact Book.ipynb
+├── Contact book 2 (1).ipynb
+└── contacts.json (or contacts.csv) - saved contact data
+💡 Use Case
+Ideal for beginners learning:
 
-📸 Preview
-You can view the Contact Book HTML version directly in your browser.
+File I/O in Python
 
-🔮 Future Enhancements
-GUI interface using Tkinter or PyQt
+Functions and control flow
 
-Persistent data storage using SQLite or CSV
-
-Web version using Flask or Django
-
-Import/export contact list functionality
-
-📚 Learning Outcomes
-Working with Python dictionaries and functions
-
-Using loops and conditionals effectively
-
-Structuring code for user interaction
-
-Exporting Jupyter notebooks to HTML
-
+Command-line applications
